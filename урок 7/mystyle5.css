@@ -1,0 +1,90 @@
+#conteiner {
+	height: 100%;
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#top_conteiner {
+	position: relative;
+	width: 100%;
+	height: 30%;
+}
+
+#left_conteiner {
+	position: relative;
+	width: 25%;
+	height: 800px;
+	float: left;
+	background: #CCFFFF;
+}
+
+#center_conteiner {
+	position: relative;
+	background-image: url("fon9.jpg");
+	width: 75%;
+	height: 800px;
+	float: right;
+}
+
+#center_text {
+	position: relative;
+	color: #0000CC;
+	margin-left: 10px;
+}
+
+#center_images {
+	position: absolute;
+	width: 75%;
+	height: 100%;
+}
+
+#home_1 {
+	position: absolute;
+	top: 35%;
+	left: 5%;
+	z-index: 1;
+	border: 2px solid white;
+}
+
+#home_2 {
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	z-index: 2;
+	border: 2px solid white;
+}
+
+#home_3 {
+	position: absolute;
+	top: 45%;
+	left: 65%;
+	z-index: 3;
+	border: 2px solid white;
+}
+
+#home_4 {
+	position: absolute;
+	top: 65%;
+	left: 5%;
+	z-index: 4;
+	border: 2px solid white;
+}
+
+#home_5 {
+	position: absolute;
+	top: 70%;
+	left: 35%;
+	z-index: 5;
+	border: 2px solid white;
+}
+
+#home_6 {
+	position: absolute;
+	top: 75%;
+	left: 65%;
+	z-index: 6;
+	border: 2px solid white;
+}
+
+.brown {color:#8B4513; font-family: Tahoma}
